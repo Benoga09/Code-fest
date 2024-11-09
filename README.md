@@ -17,12 +17,13 @@ itens:
 - casa da feitoria
 - museu do trem
 
-### turismo de negócios:
+### Turismo de negócios:
 - tecnosinos
 - Sap
 - Unisinos
 - Escola superior de teologia
-- hotéis:
+  
+### Hotéis:
 - Hotel Klein Ville
 - Hotel Intercity
 - Hotel Express Confort
@@ -38,7 +39,7 @@ itens:
 - bela romana
 - mokai express
 
-### entreterimento:
+### Entreterimento:
 - cinesystem
 - strike berlin
 - aimoré estadio
