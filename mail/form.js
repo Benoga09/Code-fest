@@ -10,7 +10,7 @@ async function sendEmail() {
     console.log(params)
   
     // Usar fetch para enviar os dados para o servidor
-    await fetch('https://lenjoy-sl-mail-service.onrender.com/api/send-mail', {
+    await fetch('https://enjoy-sl-mail-service.onrender.com/api/send-mail', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
