@@ -49,6 +49,8 @@ itens:
 
 - DESCUBRA SÃO LEOPOLDO:
 
+sturismo49@gmail.com
+code-fest2024
 
 
 
