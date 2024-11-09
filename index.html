@@ -265,65 +265,65 @@
     <!-- Feature End -->
 
 
-    <!-- Destination Start -->
-    <div class="container-fluid py-5">
+     <!-- Destination Start -->
+     <div class="container-fluid py-5">
         <div class="container pt-5 pb-3">
             <div class="text-center mb-3 pb-3">
                 <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Destination</h6>
-                <h1>Explore Top Destination</h1>
+                <h1>Pontos Turisticos</h1>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="destination-item position-relative overflow-hidden mb-2">
-                        <img class="img-fluid" src="img/destination-1.jpg" alt="">
+                        <img class="img-fluid" src="Imagens/santuario padre reus.jpg" alt="">
                         <a class="destination-overlay text-white text-decoration-none" href="">
-                            <h5 class="text-white">United States</h5>
-                            <span>100 Cities</span>
+                            <h5 class="text-white">Santuário Sagrado</h5>
+                            <span>Coração de Jesus Padre Reus</span>
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="destination-item position-relative overflow-hidden mb-2">
-                        <img class="img-fluid" src="img/destination-2.jpg" alt="">
+                        <img class="img-fluid" src="Imagens/Igreja Nossa Senhora da Conceicao.jpg" alt="">
                         <a class="destination-overlay text-white text-decoration-none" href="">
-                            <h5 class="text-white">United Kingdom</h5>
-                            <span>100 Cities</span>
+                            <h5 class="text-white">Igreja Nossa Senhora da Conceição</h5>
+                            <span>Praça Tiradente</span>
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="destination-item position-relative overflow-hidden mb-2">
-                        <img class="img-fluid" src="img/destination-3.jpg" alt="">
+                        <img class="img-fluid" src="Imagens/Escola Superior de Teologia 2.jpg" alt="">
                         <a class="destination-overlay text-white text-decoration-none" href="">
-                            <h5 class="text-white">Australia</h5>
-                            <span>100 Cities</span>
+                            <h5 class="text-white">Faculdades EST</h5>
+                            <span>Escola Superior da Teologia</span>
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="destination-item position-relative overflow-hidden mb-2">
-                        <img class="img-fluid" src="img/destination-4.jpg" alt="">
+                        <img class="img-fluid" src="Imagens/praca do imigrante.jpg" alt="">
                         <a class="destination-overlay text-white text-decoration-none" href="">
-                            <h5 class="text-white">India</h5>
-                            <span>100 Cities</span>
+                            <h5 class="text-white">Praça do Imigrante</h5>
+                            <span>Praça Centenário</span>
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="destination-item position-relative overflow-hidden mb-2">
-                        <img class="img-fluid" src="img/destination-5.jpg" alt="">
+                        <img class="img-fluid" src="Imagens/museu do rio dos sinos.webp" alt="">
                         <a class="destination-overlay text-white text-decoration-none" href="">
-                            <h5 class="text-white">South Africa</h5>
-                            <span>100 Cities</span>
+                            <h5 class="text-white">Museu do Rio dos Sinos</h5>
+                            <span>Rua da Praia</span>
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="destination-item position-relative overflow-hidden mb-2">
-                        <img class="img-fluid" src="img/destination-6.jpg" alt="">
+                        <img class="img-fluid" src="Imagens/parque imperatriz.jpg" alt="">
                         <a class="destination-overlay text-white text-decoration-none" href="">
-                            <h5 class="text-white">Indonesia</h5>
-                            <span>100 Cities</span>
+                            <h5 class="text-white">Parque Imperatriz</h5>
+                            <span>Jardim Botânico</span>
                         </a>
                     </div>
                 </div>
@@ -520,27 +520,34 @@
                         <div class="card-header bg-primary text-center p-4">
                             <h1 class="text-white m-0">Inscreva-se agora</h1>
                         </div>
+                        <form 
+                            onsubmit="sendEmail(); 
+                            reset();
+                            return false;"
+                        >
                         <div class="card-body rounded-bottom bg-white p-5">
                             <form>
                                 <div class="form-group">
-                                    <input type="text" class="form-control p-4" placeholder="Seu nome" required="required" />
+                                    <input type="text" id="name" class="form-control p-4" placeholder="Seu nome" required="required" />
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" class="form-control p-4" placeholder="Seu e-mail" required="required" />
+                                    <input type="email" id="email" class="form-control p-4" placeholder="Seu e-mail" required="required" />
                                 </div>
                                 <div class="form-group">
-                                    <select class="custom-select px-4" style="height: 47px;">
+                                    <select id="destination" class="custom-select px-4" style="height: 47px;">
                                         <option selected>Selecione o destino</option>
-                                        <option value="1">destination 1</option>
-                                        <option value="2">destination 1</option>
-                                        <option value="3">destination 1</option>
+                                        <option value="destination1">destination 1</option>
+                                        <option value="destination2">destination 2</option>
+                                        <option value="destination3">destination 3</option>
                                     </select>
                                 </div>
                                 <div>
-                                    <button class="btn btn-primary btn-block py-3" type="submit">Sign Up Now</button>
+                                    <button class="btn btn-primary btn-block py-3" type="submit">Enviar</button>
                                 </div>
                             </form>
                         </div>
+                        <div id="success"></div>
+                    </form>
                     </div>
                 </div>
             </div>
@@ -847,6 +854,7 @@
     <!-- Contact Javascript File -->
     <script src="mail/jqBootstrapValidation.min.js"></script>
     <script src="mail/contact.js"></script>
+    <script src="mail/form.js"></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
