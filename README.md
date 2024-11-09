@@ -28,7 +28,7 @@ itens:
 - Hotel Express Confort
 - Hotel Suárez
 
-- Restaurante:
+### Restaurante:
 - paçoquinha
 - variatto
 - céu da boca
@@ -38,7 +38,7 @@ itens:
 - bela romana
 - mokai express
 
-- entreterimento:
+### entreterimento:
 - cinesystem
 - strike berlin
 - aimoré estadio
