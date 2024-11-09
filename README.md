@@ -1,6 +1,6 @@
 # Code-fest
 
-## ENJOY SÂO LEO 
+## ENJOY SÃO LEO 
 
 itens:
   
