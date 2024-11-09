@@ -527,7 +527,8 @@ mark,
 
 .img-fluid {
   max-width: 100%;
-  height: auto;
+  width: 330px;
+  height: 220px;
 }
 
 .img-thumbnail {
@@ -9261,6 +9262,7 @@ button.bg-dark:focus {
 
 .text-white {
   color: #fff !important;
+  text-align: center;
 }
 
 .text-primary {
